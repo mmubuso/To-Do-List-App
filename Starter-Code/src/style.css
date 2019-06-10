@@ -1,0 +1,47 @@
+/* Your CSS will go here */ 
+
+html{
+    /* font-size: 10em; */
+}
+
+/* Container  */
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+/* heading style */
+.heading-tab{
+    background: #0F4C5C;  
+    padding: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+/* UL stylesheet */
+ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #E36414;
+    min-height: 500px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+li{
+    background-color: #5F0F40;
+    border: 5px solid #5F0F40;
+    height: 3em;
+    border-radius: 1em;
+}
+
+/* Submit button */
+button{
+    width: 5em;
+    border-radius: 1em;
+}
+
+input{
+    background-color: rgba(250, 235, 215, 0);
+    border-style: none;
+    border-bottom-style: solid; 
+    border-bottom-width: 0.5px;
+}
