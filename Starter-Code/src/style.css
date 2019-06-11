@@ -15,6 +15,7 @@ html{
     background: url('https://images.unsplash.com/photo-1515851515020-af45a722418b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');  
     background-repeat: no-repeat;
     background-size: cover;
+    
     padding: 1em;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
@@ -26,9 +27,10 @@ ul{
     margin-top: 1em;
     list-style-type: none;
     padding: 10px;
-    background: url('https://images.unsplash.com/photo-1547239246-d2f052bdccf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     min-height: 500px;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
@@ -36,7 +38,7 @@ ul{
 li,.list-item{
     background-color: rgba(95, 15, 64, 0.514);
     border: 5px solid rgba(95, 15, 64, 0);
-    height: 2em;
+    max-height: 2em;
     border-radius: 1em;
     margin: 10px auto;
     padding-top: 1em;
