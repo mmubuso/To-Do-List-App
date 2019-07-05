@@ -7,7 +7,7 @@ html{
 
 /* Container  */
 .container{
-    max-width: 500px;
+    min-width: 300px;
     margin: 0 auto;
 }
 /* heading style */
@@ -36,12 +36,12 @@ ul{
     border-bottom-right-radius: 1em;
 }
 li,.list-item{
-    background-color: rgba(95, 15, 64, 0.514);
+    background-color: rgba(95, 15, 64, 0.212);
     border: 5px solid rgba(95, 15, 64, 0);
-    max-height: 2em;
+    min-height: 1.5em;
     border-radius: 1em;
     margin: 10px auto;
-    padding-top: 1em;
+    padding-top: 0.5em;
     padding-left: 1em;
 }
 

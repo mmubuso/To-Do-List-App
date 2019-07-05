@@ -1,7 +1,6 @@
 // Your jQuery Logic will go here
 $(document).ready(function () {
-// let deleteItem = $('.delete')
-// console.log(deleteItem)
+
     //Variables
     let toDoArray = {}
     let submit = $('button').eq(0)
@@ -34,14 +33,14 @@ $(document).ready(function () {
 
     //Remove the to do it tem
     $('ul').on('click',function(){
-        console.log(event)
+    
         if(event.target.className === "delete fas fa-trash-alt"){
             event.target.parentNode.remove()
-            console.log(event)
+        
         }else if(event.target.className === "fas fa-plus-square"){
             event.target.parentNode.classList.toggle('complete')
         }else{
-
+            return
         }
      })
 
