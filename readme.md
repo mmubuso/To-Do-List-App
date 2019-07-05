@@ -1,7 +1,7 @@
 # To Do List Application
 
 
-- Project: https://determined-payne-454368.netlify.com/
+- Project: https://boring-dijkstra-cc2aa3.netlify.com/
 - GitHub: https://github.com/mmubuso/To-Do-List-App.git
 
 ## Overview
